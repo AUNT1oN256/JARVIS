@@ -27,7 +27,7 @@ def command():
         print("Say")
         r.pause_threshold = 1
         r.adjust_for_ambient_noise(source, duration=1)
-        # print(1)
+        # print(1)+
         audio = r.listen(source)
         # print(2)
     try:
